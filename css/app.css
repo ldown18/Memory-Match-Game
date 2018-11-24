@@ -1,0 +1,120 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #ffffff url('../img/flower.jpg'); /* Background picture was taken by me. */
+    font-family: 'Coda', cursive;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    font-family: 'Open Sans', cursive;
+    font-weight: 300;
+}
+/* Styles for the deck of cards
+ */
+.deck {
+    width: 660px;
+    min-height: 680px;
+    background: linear-gradient(160deg, #047308 0%, #bcf7bf 100%);
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 12px 15px 20px 0 rgba(33, 144, 49, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 3em;
+}
+.deck .card {
+    height: 125px;
+    width: 125px;
+    background: #245226;
+    font-size: 0;
+    color: #064a44;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+.deck .card.open {
+    transform: rotateY(0);
+    background: #21a526;
+    cursor: default;
+}
+.deck .card.show {
+    font-size: 33px;
+}
+.deck .card.match {
+    cursor: default;
+    background: #67ef6d;
+    font-size: 33px;
+}
+/* Styles for the Score Panel
+ */
+.score-panel {
+    text-align: left;
+    width: 345px;
+    margin-bottom: 10px;
+}
+.score-panel .stars {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+.score-panel .stars li {
+    list-style: none;
+    display: inline-block;
+}
+.score-panel .restart {
+    float: right;
+    cursor: pointer;
+}
+.score-panel .timer {
+    margin-left: 50px;
+}
+/* Styles for the win modal
+ */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #423c3c;
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+    background-color: #82ef86;
+    margin: 20% auto;
+    padding: 20px;
+    border: 20px solid #2a672c;
+    width: 60%;
+    font-family: 'Open Sans', cursive;
+    font-weight: 300;
+    font-size: x-large;
+    text-align: center;
+    color: #153517
+}
