@@ -6,8 +6,7 @@
           and https://fonts.googleapis.com/css?family=Coda. 
         
 # How to Play: 
-The game begins as soon as the page loads.  Click on a card to reveal the symbol while finding the matching card with the same symbol.  
-When all matches have been found the game ends, providing you the number of moves it to you to find all the matches, the number of stars earned based on the completed number of moves, and how long it took you to find all of the matches.  The objective is to find all the matches in the least amount of moves.  
+The game begins as soon as the page loads.  Click on a card to reveal the symbol while finding the matching card with the same symbol. When all matches have been found the game ends, providing you the number of moves it to you to find all the matches, the number of stars earned based on the completed number of moves, and how long it took you to find all of the matches.  The objective is to find all the matches in the least amount of moves.  
 
 # Star Scoring
 The number of stars you will recieve is based on the how many moves it took you to find all of the card matches.  The more moves you makes you earn less stars.  
