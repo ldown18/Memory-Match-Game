@@ -16,8 +16,8 @@ The number of stars you will recieve is based on the how many moves it took you 
 
 ### Screenshots
 
-![Start Screen](screenshots/gamestart.png "Start Screen")
+![Start Screen](screenshoots/gamestart.png "Start Screen")
 
-![Game in Play](screenshots/ingameplay.png "Game Board in play")
+![Game in Play](screenshoots/ingameplay.png "Game Board in play")
 
-![Win Screen](screenshots/win.png "Winners screen")
+![Win Screen](screenshoots/win.png "Winners screen")
