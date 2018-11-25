@@ -13,11 +13,3 @@ The number of stars you will recieve is based on the how many moves it took you 
 * 3 Stars - 20 moves or less
 * 2 Stars - 25 moves or less
 * 1 Star  - 26 or more
-
-### Screenshots
-
-![Start Screen](screenshoots/gamestart.png "Start Screen")
-
-![Game in Play](screenshoots/ingameplay.png "Game Board in play")
-
-![Win Screen](screenshoots/win.png "Winners screen")
